@@ -1167,8 +1167,8 @@ int main(int argc, char* argv[])
     sleep(1);
     //std::cin.clear();
     //std::cin.ignore();
-    if(!rpcmode && sub_url.size())
-        _getch();
+    //if(!rpcmode && sub_url.size())
+    //    _getch();
 #ifdef _WIN32
     //stop socket library before exit
     WSACleanup();
