@@ -1163,8 +1163,8 @@ int main(int argc, char* argv[])
         printMsg(SPEEDTEST_ERROR_NORECOGLINK, rpcmode);
     }
     logEOF();
-    printMsg(SPEEDTEST_MESSAGE_EOF, rpcmode);
-    sleep(1);
+    //printMsg(SPEEDTEST_MESSAGE_EOF, rpcmode);
+    //sleep(1);
     //std::cin.clear();
     //std::cin.ignore();
     //if(!rpcmode && sub_url.size())
